@@ -1,0 +1,270 @@
+*{
+    margin: 0;padding: 0;
+}
+
+header{
+    position: fixed;
+    border: 2px solid;
+    background-color: rgb(85, 85, 140);
+    /* margin: 5px; */
+    /* width: 98%; */
+    /* margin: 10px;  */
+    /* padding-bottom: 15px; */
+    display: flex;
+  
+
+    /* flex-direction: column; */
+
+}
+.navbar{
+    width:100vw;
+    display: flex;
+    color: aliceblue;
+    
+}
+.navbar .nav{
+    justify-content: right;
+    padding-right: 20px;
+
+}
+.navbar h2{
+    
+    align-self: center;
+    /* justify-self: center; */
+    /* width:30% ;
+    max-width: 150px; */
+    margin-left: 10px;
+
+}
+.navbar li{
+    
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 50px; */
+    
+    width: 100%;
+    
+    box-sizing: border-box;
+    
+}
+.cont{
+    margin: 0px;
+    padding: 20px;
+}
+/* ----- Home Page ------- */
+#Home {
+    display:flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#logo{
+    height: 45px;
+    
+   
+   
+   }
+.navbtn{
+    margin: 20px;
+    
+}
+.cont{
+  
+    /* width: 98%; */
+    /* border: 2px solid; */
+    /* margin: 10px;  */
+    margin-top: 0px;
+}
+
+#Home > h1, #Home > h4,#Home >h3,#Home >p{
+    margin-left:20% ;
+    margin-right:20% ;
+    
+    max-width: 600px;
+    margin-top: 0px;
+    text-align: center;
+    /* border: 2px solid; */
+    
+}
+#student{
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin: auto;
+    margin-top:10px ;
+    margin-bottom:10px ;
+}
+#About{
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    
+}
+#About ul{
+    list-style: none;
+    padding: 30px;
+    max-width: 700px;
+}
+#About li{
+    margin: 10px;
+}
+#About li>ul{
+    list-style: circle ;
+}
+/* ---- Edu page ---- */
+#edu{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    padding: 30px;
+    box-sizing: border-box;
+   
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    border-radius:15px ;
+    margin: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    width: 80%;
+
+}
+.box li{
+    list-style: none;
+}
+.box img{
+    height: 90%;
+    width: 35%;
+    padding-right: 5%;
+}
+
+
+#Resume p{
+    margin: 2%;
+    padding: 10px;
+    font-size: 1.2em;
+}
+#Resume a{
+    height: 25px ;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid;
+    text-decoration: none;
+    margin: 40px;
+}
+
+/* ----- Form CSS ------- */
+
+#contform{
+    margin: auto;
+    margin-top: 10px;
+    /* w */
+    max-width: 450px;
+    width: 60%;
+    /* border: solid  ; */
+    /* background-color:rgb(170, 191, 235) ; */
+    box-sizing: border-box;
+    
+}
+#contform h1{
+    margin: 0px;
+}
+#form{
+    
+    background-color:rgb(254, 253, 253) ;
+    padding: 15px 10px ;
+    margin: 5px 5px 15px 5px;
+    border: none;
+}
+.input{
+   
+    border-radius: 6px; 
+    color:  rgb(59, 59, 118);
+    padding: 5px;
+    margin: 5px;
+    
+}
+textarea{
+    resize:none;
+    /* overflow: hidden; */
+}
+#fn{
+    
+    float: left;
+    width: 80%;
+    background-color: rgb(227, 227, 243);
+    border-color: rgb(227, 227, 243);
+}
+/* #ln{
+    /* width: 165px; */
+    /* background-color: rgb(227, 227, 243);
+    border-color: rgb(227, 227, 243);
+}   */ 
+#email{
+    float: left;
+    width: 80%;
+    background-color: rgb(210, 210, 251);
+    border-color:  rgb(217, 217, 247);
+}
+::placeholder{
+    color:  rgb(59, 59, 118);
+}
+#ph{
+    width: 80%;
+    background-color:  rgb(210, 210, 251);
+    border-color:  rgb(217, 217, 247);
+}
+#Address{
+    width: 80%;
+    background-color: rgb(177, 177, 244);
+    border-color:  rgb(187, 187, 241);
+}
+#message{
+    width: 80%;
+    background-color: rgb(135, 135, 227);
+    border-color:  rgb(131, 131, 198);
+}
+#submit{
+    width: 140px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(66, 66, 241);
+    color: rgb(210, 201, 201);
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+/* Contact icons */
+#ci{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#conimg{
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+}
+.contact-icon img{
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+}
